@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Devopssep22Controller {
     @GetMapping(path="/greet",produces="application/json")
     public String greet(){
-		System.out.println("Hello");
+		System.out.println("Hello 123");
         return "Hello";
     }
 }
