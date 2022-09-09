@@ -34,7 +34,7 @@ public class Devopssep22ApplicationTests {
    @Test
     public void testGreeting(){
         String greet = ctrller.greet ( );
-        assertEquals(greet,"Hello");
+        assertEquals(greet,"Hello Java");
         
    }
 }
